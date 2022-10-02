@@ -1,6 +1,7 @@
 import throttle from 'lodash.throttle';
 const feedbackFormRef = document.querySelector('.feedback-form');
 const LOCALE_STORAGE_KEY = 'feedback-form-state';
+console.log('feedbackFormRef: ', feedbackFormRef);
 
 const save = (key, value) => {
   try {
